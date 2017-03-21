@@ -1,0 +1,6 @@
+[package]
+name = "rybi"
+version = "0.1.0"
+authors = ["Isak Andersson <contact@bitpuffin.com>"]
+
+[dependencies]
