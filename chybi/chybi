@@ -1,0 +1,3 @@
+#!/bin/sh
+
+chibi-scheme chybi.scm
