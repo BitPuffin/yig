@@ -4,9 +4,9 @@
   (scheme process-context))
 
 (define (run-repl)
-  (display "yig chybi REPL")
+  (display "Let's get yiggy with chybi!")
   (newline)
-  (display "--------------")
+  (display "---------------------------")
   (newline)
   (define (prompt)
     (display "> ")
