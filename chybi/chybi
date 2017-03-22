@@ -1,3 +1,4 @@
 #!/bin/sh
 
-chibi-scheme chybi.scm
+chibi-scheme chybi.scm $*
+
