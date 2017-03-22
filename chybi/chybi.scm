@@ -3,7 +3,7 @@
   (scheme write)
   (scheme process-context))
 
-(define (yig-run-repl)
+(define (run-repl)
   (display "yig chybi REPL")
   (newline)
   (display "--------------")
@@ -24,7 +24,7 @@
   (repl))
 
 (let ((argc (length (command-line))))
-  (cond ((= argc 1) (yig-run-repl))))
+  (cond ((= argc 1) (run-repl))))
 
 
 
